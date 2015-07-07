@@ -43,6 +43,11 @@ h3{
   align-items: center;
   font-size: 28px;
   padding-top: 10px;
+  margin-left: 20px;
+
+}
+.long{
+	margin-left:52px;
 }
 .body{
 	 display: flex;
@@ -86,9 +91,21 @@ img{
 	
 }
 .next{
+	
+}
+.question-2{
+	display: none;
+}
+.question-3{
+	display: none;
+}
+.question-4{
 	display: none;
 }
 .question{
+	display: none;
+}
+.finish{
 	display: none;
 }
 .answers{
@@ -102,6 +119,7 @@ form{
 	font-size: 32px;
 	color: #010F4D;
 	display: none;
+	
 }
 input[type="radio"] {
   margin-top: 89px;
