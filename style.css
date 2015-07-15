@@ -113,21 +113,34 @@ img{
 	display: flex;
   justify-content: center;
   align-items: center;
+  font-family: 'Montserrat', sans-serif;
+	font-size: 32px;
+	color: #010F4D;
 }
-form{
+.form{
 	font-family: 'Montserrat', sans-serif;
 	font-size: 32px;
 	color: #010F4D;
 	display: none;
+	margin-top: 74px;
 	
 }
-input[type="radio"] {
-  margin-top: 89px;
+div.button.button-b, div.button-d {
+  margin-left: 304px;
 }
-input[name="B"], input[name="D"] {
-  margin-left:267px;
+
+span.answer-b, span.answer-a, span.answer-c, span.answer-d{
+	margin-left:20px; 
 }
-input[name="A"], input[name="C"]{
-	margin-bottom: 28px;
-	margin-top: 0px;
+
+
+div.button.button-a, div.button.button-b, div.button.button-c, div.button.button-d{
+	height:19px;
+	width:20px;
+	background-color:#010F4D;
+	display:inline-block;
+	border-radius:14px; 
+}
+div.button.button-a:hover, div.button.button-b:hover, div.button.button-c:hover, div.button.button-d:hover{
+	background-color: #FE6281;
 }
