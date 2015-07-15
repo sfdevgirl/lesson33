@@ -26,7 +26,7 @@ $( document ).ready(function() {
    // functions
    $(".app .next.question-1").on("click",function(){
       var correctChoice = quiz[0].correct;
-      console.log(correctChoice);
+      
       $(".question").show();
       $(".app .question").text(quiz[0].question);
       $(".title").hide();
@@ -41,7 +41,7 @@ $( document ).ready(function() {
    });
    $(".app .next.question-2").on("click",function(){
       var correctChoice = quiz[1].correct;
-      console.log(correctChoice);
+      
       $(".answers .button:eq(3)").removeClass('correct');
       $(".app .question").text(quiz[1].question);
       $(".app .answer-a").text(quiz[1].choices[0]);
@@ -55,7 +55,7 @@ $( document ).ready(function() {
    });
    $(".app .next.question-3").on("click",function(){
       var correctChoice = quiz[2].correct;
-      console.log(correctChoice);
+      
       $(".answers .button:eq(1)").removeClass('correct');
       $(".app .question").text(quiz[2].question);
       $(".app .answer-a").text(quiz[2].choices[0]);
@@ -70,7 +70,7 @@ $( document ).ready(function() {
    });
    $(".app .next.question-4").on("click",function(){
       var correctChoice = quiz[3].correct;
-      console.log(correctChoice);
+      
       $(".answers .button:eq(0)").removeClass('correct');
       $(".app .question").text(quiz[3].question);
       $(".app .answer-a").text(quiz[3].choices[0]);
